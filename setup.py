@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cmdline_utils",
-    version = '{{VERSION_PLACEHOLDER}}',
+    version = 0.1,
     packages=find_packages(),
     install_requires=[
         "groq",  
