@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="cmdline_utils",
-    version="0.1.0",
+    version = '{{VERSION_PLACEHOLDER}}'
     packages=find_packages(),
     install_requires=[
         "groq",  
@@ -13,7 +13,7 @@ setup(
         ],
     },
     keywords=['python', 'groq', 'llama3 70b'],
-    python_requires='>=3.6',
+    python_requires='>=3.8',
     author="Sunil Aleti",
     author_email="iam@sunilaleti.dev",
     description="A CLI tool for helping commands with Groq",
