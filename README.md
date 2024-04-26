@@ -10,6 +10,10 @@ $ python setup.py sdist
 $ twine upload dist/*
 ```
 
+Navigate to https://console.groq.com/keys to setup API KEY
+
+Navigate to https://console.groq.com/docs/models to setup ModelId
+
 ### For macOS/Linux:
 ----------------
 To set the GROQ_API_KEY environment variable for your current terminal session, execute the following command:<br>
